@@ -12,6 +12,7 @@
   },
   "scripts": {
     "lint": "lerna run lint --stream",
-    "start": "lerna run start --stream"
+    "start": "lerna run start --stream",
+    "build": "cd packages/front && yarn run build"
   }
 }
