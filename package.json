@@ -1,0 +1,17 @@
+{
+  "name": "lerna-react-express-app",
+  "version": "0.0.1",
+  "main": "index.js",
+  "author": "Ronak <ronak.raithatha@somoglobal.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "lerna": "^3.18.4"
+  },
+  "dependencies": {
+    "latest": "^0.2.0"
+  },
+  "scripts": {
+    "lint": "lerna run lint --stream",
+    "start": "lerna run start --stream"
+  }
+}
