@@ -13,6 +13,6 @@
   "scripts": {
     "lint": "lerna run lint --stream",
     "start": "lerna run start --stream",
-    "build": "cd packages/front && yarn run build"
+    "build": "cd packages/front && yarn && yarn run build"
   }
 }
